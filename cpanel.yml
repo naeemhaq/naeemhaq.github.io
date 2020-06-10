@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/nqtechca/public_html/
+    - /bin/cp -R NAEEMHAQ.GITHUB.IO $DEPLOYPATH
